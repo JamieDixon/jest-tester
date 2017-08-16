@@ -4,10 +4,11 @@
             "module-resolver",
             {
                 "alias": {
-                    "core": "../core"
+                    "core": "./lib/core"
                 }
             }
-        ]
+        ],
+        "transform-export-extensions"
     ],
     "presets": [
         "react-native"
